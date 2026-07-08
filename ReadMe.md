@@ -35,7 +35,7 @@ Email: jsteidl@zalf.de
 
 | Script | Description |
 |--------|-------------|
-| `Analysis.R` | Starts the required script function. |
+| `Analysis.R` | Starts the required script functions. |
 | `Init.R` | Initializes the analysis environment by loading packages, defining global variables, setting directory paths, and establishing data connections.|
 | `funcData.R` | Loading, preparing, and visualizing the data. |
 | `funcPCA.R` | Functions for analysing the environmental drivers of the principal components. |
@@ -61,8 +61,12 @@ Restore the R environment:
 install.packages("renv")   # if not already installed
 renv::restore()
 ```
+Download the dataset from the data repository https://doi.org/10.4228/zalf-vevz-ys85
 
-After restoration, all scripts can be executed using the package versions employed for the publication.
+You may need to adjust the data to meet the requirements of the R code and define the environment variables 
+DB_USER, DB_LABORATORY_DATA, and WORKDIRECTORY to match your local data paths.
+
+Afterward, all scripts can be executed using the package versions used for the publication.
 
 ## License
 
