@@ -66,8 +66,8 @@ Dataset:
 
 ```
 Download the dataset from the data repository https://doi.org/10.4228/zalf-vevz-ys85
-You may need to adjust the data to meet the requirements of the R code and define the environment variables 
-DB_USER, DB_LABORATORY_DATA, and WORKDIRECTORY to match your local data paths.
+You may need to adjust the data to meet the requirements of the R code (or vice versa) and define the environment variables 
+DB_USER, DB_LABORATORY_DATA, DB_REDOX and WORKDIRECTORY to match your local data paths.
 ```
 
 Afterward, all scripts can be executed using the package versions used for the publication.
