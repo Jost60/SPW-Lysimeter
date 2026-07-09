@@ -67,9 +67,10 @@ Dataset:
 ```
 Download the dataset from the data repository https://doi.org/10.4228/zalf-vevz-ys85
 Depending on your data and analysis requirements, you may need to adapt the input data or parts of the R code.
-
 If the structure or number of input data differs from the dataset used in this study,
 the corresponding adjustments can be made in the function `funcData::Load_LysimeterData()`.
+Please note that Lysimeter III from the dataset was referred to as Lysimeter II in this study.
+Lysimeter II from the dataset was not used in the study.
 
 In addition, the following environment variables must be defined or adapted to match your local system:
 
