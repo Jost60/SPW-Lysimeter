@@ -66,8 +66,20 @@ Dataset:
 
 ```
 Download the dataset from the data repository https://doi.org/10.4228/zalf-vevz-ys85
-You may need to adjust the data to meet the requirements of the R code (or vice versa) and define the environment variables 
-DB_USER, DB_LABORATORY_DATA, DB_REDOX and WORKDIRECTORY to match your local data paths.
+Depending on your data and analysis requirements, you may need to adapt the input data or parts of the R code.
+
+If the structure or number of input data differs from the dataset used in this study,
+the corresponding adjustments can be made in the function `funcData::Load_LysimeterData()`.
+
+In addition, the following environment variables must be defined or adapted to match your local system:
+
+* `DB_USER`
+* `DB_LABORATORY_DATA`
+* `DB_REDOX`
+* `WORKDIRECTORY`
+
+These variables should point to the appropriate local database connections and working directories.
+
 ```
 
 Afterward, all scripts can be executed using the package versions used for the publication.
