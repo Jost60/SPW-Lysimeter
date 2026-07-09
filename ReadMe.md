@@ -1,6 +1,6 @@
 # SPW Lysimeter Analysis
 
-This repository contains the R scripts and documentation used to analyse the lysimeter data for the publication:
+This repository contains the R scripts and documentation used to analyses the lysimeter data for the publication:
 
 **Impacts of groundwater level management on geochemical processes at an agricultural site with shallow groundwater**
 
