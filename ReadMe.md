@@ -62,7 +62,10 @@ install.packages("renv")   # if not already installed
 renv::restore()
 ```
 
+Afterward, all scripts can be executed using the package versions used for the publication.
+
 Dataset:
+
 ```
 Download the dataset from the data repository https://doi.org/10.4228/zalf-vevz-ys85
 Depending on your data and analysis requirements, you may need to adapt the input data or parts of the R code.
@@ -80,8 +83,6 @@ This can be done using the following environment variables, as intended:
 Alternatively, you can add the connections directly to the corresponding variables in the `# Control parameters` section of the `Init.R` script.
 
 ```
-
-Afterward, all scripts can be executed using the package versions used for the publication.
 
 ## License
 
