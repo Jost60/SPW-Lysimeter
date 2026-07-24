@@ -1,6 +1,8 @@
 # SPW Lysimeter Analysis
-
 This repository contains the R scripts and documentation used to analyses the lysimeter data for the publication:
+
+Environmental Earth Sciences (2026) 85:334
+https://doi.org/10.1007/s12665-026-13076-z
 
 **Impacts of groundwater level management on geochemical processes at an agricultural site with shallow groundwater**
 
